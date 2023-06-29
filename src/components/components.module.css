@@ -1,0 +1,57 @@
+.textBtn {
+    cursor: pointer;
+}
+
+.main {
+    margin: 16px;
+}
+
+.btn {
+    border: none;
+    background-color: #2bb0b7;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.textBtn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn:disabled {
+    /* background-color: lightgray !important; */
+    opacity: 60%;
+}
+
+.code_input_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.code_input {
+    width: 95%;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    transition: background .3s cubic-bezier(.25, .8, .5, 1);
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.code_input img {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.code_input input {
+    width: 90%;
+    border: 0;
+    outline: none;
+}

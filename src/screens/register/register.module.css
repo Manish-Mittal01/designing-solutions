@@ -1,0 +1,24 @@
+.mainWrapper {
+    background-color: #2bb0b7;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border-radius: 6px;
+    width: 60%;
+    background: #fff;
+}
+
+.textFieldWrapper {
+    margin-block: 16px;
+}
+
+@media (max-width:700px) {
+    .main {
+        width: 95% !important;
+    }
+}
